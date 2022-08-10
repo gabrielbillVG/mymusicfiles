@@ -1,4 +1,4 @@
-<<h1> 🎵 My Music 2022 </h1>
+<h1> 🎵 My Music 2022 </h1>
 
 ![MyMusic](https://github.com/gabrielbillVG/mymusicfiles/blob/main/ezgif-5-34f5820e19.gif)
 
