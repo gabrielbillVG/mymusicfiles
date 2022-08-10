@@ -43,21 +43,22 @@ STATUS: 200 OK
                 }
             }...
 ```
-<br>
+
+
 1. O serviço valida se o usuário informou ao menos 2 caracteres, retornando um HTTP 400
    caso a consulta tenha menos de 2 caracteres.
-<br>
+
 2. A busca é realizada através do nome de artista e nome da música.
-<br>
+
 3. A busca por música não é case sensitive.
-<br>
+
 4. A busca retorna valores contendo o filtro, não necessitando de ser informado o nome
    completo de música ou artista.
-<br>
+
 5. O retorno é ordenado pelo nome do artista e depois pelo nome da música.
 
 <h3 id="addplaylist"> Permitir adicionar as músicas favoritas do usuário na playlist </h3>
-<br>Utilizar o endpoint a seguir:
+Utilizar o endpoint a seguir:
 
 ```
 ENDPOINT: /api/playlists/{Playlistid}}/musics
@@ -90,7 +91,7 @@ STATUS: 200 OK
         ]
 }
 ```
-<br>
+
 
 1. Recebe um request contendo o identificador da música e o identificador da playlist.
 
@@ -99,7 +100,7 @@ STATUS: 200 OK
 
 <h3 id="removermusica"> Permitir o usuário remover músicas de sua playlist:</h3>
 
-<br>Utilizar o endpoint a seguir:
+Utilizar o endpoint a seguir:
 
 ```
 ENDPOINT: /api/playlists/{playlistId}/musics/{musicId}
@@ -115,15 +116,15 @@ STATUS: 200 OK
     "message": "Successful deletion"
 }
 ```
-<br>
 
-<br>
+
+
 
 1. Deve receber um request contendo o identificador da música e o identificador da playlist.
 
 
 2. Deve validar se o identificador da música e o identificador da playlist existem.
-<br>
+
 
 <h1 id="endpoints"> Endpoints </h1>
 Todos os endpoints devem possuir uma camada de segurança para proteger o dominio de dados. Para implementar
