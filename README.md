@@ -1,4 +1,4 @@
-# My Music 2022
+<h1> 🎵 My Music 2022 </h1>
 
 ![MyMusic](https://github.com/gabrielbillVG/mymusicfiles/blob/main/ezgif-5-34f5820e19.gif)
 
@@ -14,6 +14,10 @@
 <a href="#endpoints"> Endpoints </a>
 <br>
 <a href="#token"> Token Provider </a>
+<br>
+<a href="#bancodedados"> Banco de Dados </a>
+<br>
+<a href="#testes"> Testes </a>
 <br>
 <br>
 <p id="sobre"> O Projeto My Music 2022 é um sistema gerenciador de músicas utilizado para o Bootccamp de desenvolvedores Jr. da CI&T.
@@ -173,7 +177,7 @@ RETORNO: 201 Created
 
 <br>
 
-# Banco de dados
+<h1 id="bancodedados"> Banco de Dados </h1>
 
 Para auxiliar o desenvolvimento do API, a estrutura inicial conta com uma base de dados pré-definida e populada
 
@@ -189,3 +193,6 @@ fácil, como:
 
 https://sqlitestudio.pl/index.rvt
 
+<br>
+
+<h1 id="testes"> Testes </h3>
