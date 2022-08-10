@@ -20,6 +20,8 @@
 O objetivo do projeto é desenvolver uma api que gerencie as musicas favoritas do usuário por meio de uma playlist individual personalizável.</p>
 <p> Possui como principais funcionalidades:</p>
 
+<br>
+
 <h3 id="buscamusica">Permitir o usuário a buscar novas músicas:</h3>
 <br>
 
@@ -56,6 +58,8 @@ STATUS: 200 OK
    completo de música ou artista.
 
 5. O retorno é ordenado pelo nome do artista e depois pelo nome da música.
+
+<br>
 
 <h3 id="addplaylist"> Permitir adicionar as músicas favoritas do usuário na playlist </h3>
 Utilizar o endpoint a seguir:
@@ -117,14 +121,12 @@ STATUS: 200 OK
 }
 ```
 
-
-
-
 1. Deve receber um request contendo o identificador da música e o identificador da playlist.
 
 
 2. Deve validar se o identificador da música e o identificador da playlist existem.
 
+<br>
 
 <h1 id="endpoints"> Endpoints </h1>
 Todos os endpoints devem possuir uma camada de segurança para proteger o dominio de dados. Para implementar
@@ -168,6 +170,8 @@ RETORNO: 201 Created
     "ok"
 }
 ```
+
+<br>
 
 # Banco de dados
 
