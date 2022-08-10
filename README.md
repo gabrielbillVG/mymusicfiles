@@ -20,7 +20,7 @@
 O objetivo do projeto é desenvolver uma api que gerencie as musicas favoritas do usuário por meio de uma playlist individual personalizável.</p>
 <p> Possui como principais funcionalidades:</p>
 
-<h1 id="buscamusica">Permitir o usuário a buscar novas músicas:</h1>
+<h3 id="buscamusica">Permitir o usuário a buscar novas músicas:</h3>
 <br>
 
 ```
@@ -56,7 +56,7 @@ STATUS: 200 OK
 <br>
 5. O retorno é ordenado pelo nome do artista e depois pelo nome da música.
 
-<h1 id="addplaylist"> Permitir adicionar as músicas favoritas do usuário na playlist </h1>
+<h3 id="addplaylist"> Permitir adicionar as músicas favoritas do usuário na playlist </h3>
 <br>Utilizar o endpoint a seguir:
 
 ```
@@ -97,7 +97,7 @@ STATUS: 200 OK
 2. Valida se o identificador da música e o identificador da playlist existem.
 <br>
 
-<h1 id="removermusica"> Permitir o usuário remover músicas de sua playlist:</h1>
+<h3 id="removermusica"> Permitir o usuário remover músicas de sua playlist:</h3>
 
 <br>Utilizar o endpoint a seguir:
 
@@ -131,7 +131,7 @@ essa segurança os endpoints criados devem exigir que as requisições recebidas
 contendo um token válido para responder a requisição. Para realizar a criação e geração do token, utilizar o serviço
 disponbilizado junto com estrutura do projeto: token-provider-0.0.1-SNAPSHOT.jar.
 
-<h3 id="token"> 🔒 Token-Provider</h3>
+<h1 id="token"> 🔒 Token-Provider</h1>
 
 Para criação de token válidos utilizar o endpoint a seguir:
 
