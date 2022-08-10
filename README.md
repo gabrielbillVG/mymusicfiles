@@ -47,7 +47,7 @@ essa segurança os endpoints criados devem exigir que as requisições recebidas
 contendo um token válido para responder a requisição. Para realizar a criação e geração do token, utilizar o serviço
 disponbilizado junto com estrutura do projeto: token-provider-0.0.1-SNAPSHOT.jar.
 
-<h3 id="token"> Token-Provider</h3>
+<h1 id="token"> Token-Provider</h1>
 
 Para criação de token válidos utilizar o endpoint a seguir:
 
