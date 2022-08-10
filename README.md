@@ -21,25 +21,109 @@ O objetivo do projeto é desenvolver uma api que gerencie as musicas favoritas d
 <p> Possui como principais funcionalidades:</p>
 
 <h1 id="buscamusica">Permitir o usuário a buscar novas músicas:</h1>
+<br>
 
-1. O serviço deve validar se o usuário informou ao menos 3 caracteres, retornando um HTTP 400
-   caso a consulta tenha menos de 3 caracteres.
-2. A busca deve ser realizada através do nome de artista e nome da música.
-3. A busca por música não deve ser case sensitive.
-4. A busca deve retornar valores contendo o filtro, não necessitando de ser informado o nome
+```
+ENDPOINT: /api/v1/music?filtro={musica}
+METODO: GET
+PARAMS: 
+KEY = filtro
+Value = {musica}
+```
+STATUS: 200 OK
+```{
+    "data": {
+        "content": [
+            {
+                "id": "{musicaId}",
+                "nome": "{musicName}",
+                "artista": {
+                    "id": "{artistId}",
+                    "name": "{artistName}"
+                }
+            }...
+```
+<br>
+1. O serviço valida se o usuário informou ao menos 2 caracteres, retornando um HTTP 400
+   caso a consulta tenha menos de 2 caracteres.
+<br>
+2. A busca é realizada através do nome de artista e nome da música.
+<br>
+3. A busca por música não é case sensitive.
+<br>
+4. A busca retorna valores contendo o filtro, não necessitando de ser informado o nome
    completo de música ou artista.
-5. O retorno deve estar ordenado pelo nome do artista e depois pelo nome da música.
+<br>
+5. O retorno é ordenado pelo nome do artista e depois pelo nome da música.
 
-<h1 id="addplaylist"> Permitir adicionar as músicas favoritas do usuário na playlist:</h1>
+<h1 id="addplaylist"> Permitir adicionar as músicas favoritas do usuário na playlist </h1>
+<br>Utilizar o endpoint a seguir:
 
-1. Deve receber um request contendo o identificador da música e o identificador da playlist.
-2. Deve validar se o identificador da música e o identificador da playlist existem.
+```
+ENDPOINT: /api/playlists/{Playlistid}}/musics
+METODO: POST
+BODY: 
+{
+  "data": [
+  {
+     "id": "fc615aa1-8f3a-499b-a422-9655d4a29006",
+     "name": "Ani Na'amin",
+     "artist": {
+       "id": "2154a968-f48c-4890-a70f-a2c552c84b71",
+       "name": "ABBA" 
+      } 
+  }
+]}
+```
+STATUS: 200 OK
+```
+{
+        "data": [
+            {
+                "id": "fc615aa1-8f3a-499b-a422-9655d4a29006",
+                "name": "Ani Na'amin",
+                "artist": {
+                    "id": "2154a968-f48c-4890-a70f-a2c552c84b71",
+                    "name": "ABBA"
+                }
+            }
+        ]
+}
+```
+<br>
+
+1. Recebe um request contendo o identificador da música e o identificador da playlist.
+
+2. Valida se o identificador da música e o identificador da playlist existem.
+<br>
 
 <h1 id="removermusica"> Permitir o usuário remover músicas de sua playlist:</h1>
 
-3. Deve receber um request contendo o identificador da música e o identificador da playlist.
-4. Deve validar se o identificador da música e o identificador da playlist existem.
+<br>Utilizar o endpoint a seguir:
 
+```
+ENDPOINT: /api/playlists/{playlistId}/musics/{musicId}
+METODO: DELETE
+
+```
+STATUS: 200 OK
+```
+
+{
+    "playlistId": "{playlistId}",
+    "musicId": "{musicId}",
+    "message": "Successful deletion"
+}
+```
+<br>
+
+<br>
+
+1. Deve receber um request contendo o identificador da música e o identificador da playlist.
+
+
+2. Deve validar se o identificador da música e o identificador da playlist existem.
+<br>
 
 <h1 id="endpoints"> Endpoints </h1>
 Todos os endpoints devem possuir uma camada de segurança para proteger o dominio de dados. Para implementar
@@ -47,7 +131,7 @@ essa segurança os endpoints criados devem exigir que as requisições recebidas
 contendo um token válido para responder a requisição. Para realizar a criação e geração do token, utilizar o serviço
 disponbilizado junto com estrutura do projeto: token-provider-0.0.1-SNAPSHOT.jar.
 
-<h1 id="token"> Token-Provider</h1>
+<h3 id="token"> 🔒 Token-Provider</h3>
 
 Para criação de token válidos utilizar o endpoint a seguir:
 
