@@ -20,7 +20,7 @@
 <a href="#testes"> Testes </a>
 <br>
 <br>
-<p id="sobre"> O Projeto My Music 2022 é um sistema gerenciador de músicas utilizado para o Bootccamp de desenvolvedores Jr. da CI&T.
+<p id="sobre"> O Projeto My Music 2022 é um sistema gerenciador de músicas utilizado para o Bootcamp de desenvolvedores Jr. da CI&T.
 O objetivo do projeto é desenvolver uma api que gerencie as musicas favoritas do usuário por meio de uma playlist individual personalizável.</p>
 <p> Possui como principais funcionalidades:</p>
 
