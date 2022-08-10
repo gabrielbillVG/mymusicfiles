@@ -1,6 +1,6 @@
 <h1> 🎵 My Music 2022 </h1>
 
-![MyMusic](https://github.com/gabrielbillVG/mymusicfiles/blob/main/ezgif-5-34f5820e19.gif)
+![MyMusic](https://github.com/gabrielbillVG/mymusicfiles/blob/main/citmymusic.gif)
 
 <h2>Indice</h2>
 <a href="#sobre"> Sobre </a>
