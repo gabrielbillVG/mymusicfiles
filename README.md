@@ -3,7 +3,9 @@
 ![MyMusic](https://github.com/gabrielbillVG/mymusicfiles/blob/main/ezgif.com-gif-maker%20(1)%20(5).gif)
 
 <h2>Indice</h2>
-<a href="#sobre"> Sobre </a>
+<a href="#sobre"> Sobre o My Music </a>
+<br>
+<a href="#tecnologias"> Tecnologias Utilizadas no projeto </a>
 <br>
 <a href="#buscamusica"> Permitir o usuário a buscar novas músicas </a>
 <br>
@@ -24,6 +26,10 @@
 O objetivo do projeto é desenvolver uma api que gerencie as musicas favoritas do usuário por meio de uma playlist individual personalizável.</p>
 <p> Possui como principais funcionalidades:</p>
 
+<br>
+<h3 id="tecnologias"> Tecnologias Utilizadas no Projeto My Music </h3>
+<p> Optamos pela metodologia Clean Architecture como padrão de organização do código. Por default, o projeto utiliza Java 11, Spring Boot e Maven. Escolhemos utilizar a biblioteca Lombok para simplificar e deixar o código mais limpo. Para documentação, escolhemos o Swagger por sua praticidade e vasta documentação.</p>
+<p> Para os testes, JUnity 5(default do projeto), Mockito e Jacoco </p>
 <br>
 
 <h3 id="buscamusica">Permitir o usuário a buscar novas músicas:</h3>
