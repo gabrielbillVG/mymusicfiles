@@ -1,9 +1,9 @@
+<div align="center">
 <h1> 🎵 My Music 2022 </h1>
 
 ![MyMusic](https://github.com/gabrielbillVG/mymusicfiles/blob/main/ezgif.com-gif-maker%20(1)%20(5).gif)
-<br>
-<br>
-<br>
+</div>
+
 <h2>Indice</h2>
 <a href="#sobre"> Sobre o My Music </a>
 <br>
@@ -24,15 +24,25 @@
 <a href="#testes"> Testes </a>
 <br>
 <br>
-<br>
+<h3 id="sobre"> Sobre o Projeto My Music </h3>
 <p id="sobre"> O Projeto My Music 2022 é um sistema gerenciador de músicas utilizado para o Bootcamp de desenvolvedores Jr. da CI&T.
 O objetivo do projeto é desenvolver uma api que gerencie as musicas favoritas do usuário por meio de uma playlist individual personalizável.</p>
-<p> Possui como principais funcionalidades:</p>
 
 <br>
 <h3 id="tecnologias"> Tecnologias Utilizadas no Projeto My Music </h3>
 <p> Optamos pela metodologia Clean Architecture como padrão de organização do código. Por default, o projeto utiliza Java 11, Spring Boot e Maven. Escolhemos utilizar a biblioteca Lombok para simplificar e deixar o código mais limpo. Para documentação, escolhemos o Swagger por sua praticidade e vasta documentação.</p>
 <p> Para os testes, JUnity 5(default do projeto), Mockito e Jacoco </p>
+
+
+*  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+*  <img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot">
+*  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
+*  <img src="https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white">
+*  <img src="https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white">
+*  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white">
+*  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white">
+*  <img src="https://img.shields.io/badge/mockito-%20%20?style=for-the-badge&logo=appveyor">
+*  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
 <br>
 
 <h3 id="buscamusica">Permitir o usuário a buscar novas músicas:</h3>
@@ -142,7 +152,7 @@ Retorno:
 
 
 2. Deve validar se o identificador da música e o identificador da playlist existem.
-<br>
+
 <br>
 
 <h1 id="endpoints"> Endpoints </h1>
@@ -187,7 +197,7 @@ RETORNO: 201 Created
     "ok"
 }
 ```
-<br>
+
 <br>
 
 <h1 id="bancodedados"> Banco de Dados </h1>
@@ -204,7 +214,6 @@ fácil, é recomendado o uso do SQLite Studio ou do DB Browser for SQLite:
 https://sqlitestudio.pl/index.rvt
 
 https://sqlitebrowser.org/dl/
-<br>
 <br>
 
 <h1 id="testes"> Testes </h1>
