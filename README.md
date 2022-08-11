@@ -187,7 +187,7 @@ RETORNO: 201 Created
     "ok"
 }
 ```
-
+<br>
 <br>
 
 <h1 id="bancodedados"> Banco de Dados </h1>
@@ -204,6 +204,7 @@ fácil, é recomendado o uso do SQLite Studio ou do DB Browser for SQLite:
 https://sqlitestudio.pl/index.rvt
 
 https://sqlitebrowser.org/dl/
+<br>
 <br>
 
 <h1 id="testes"> Testes </h1>
