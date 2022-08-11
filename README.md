@@ -143,10 +143,10 @@ Retorno:
 <br>
 
 <h1 id="endpoints"> Endpoints </h1>
-Todos os endpoints devem possuir uma camada de segurança para proteger o dominio de dados. Para implementar
+<p>Todos os endpoints devem possuir uma camada de segurança para proteger o dominio de dados. Para implementar
 essa segurança os endpoints criados devem exigir que as requisições recebidas possuam o header "authorization",
 contendo um token válido para responder a requisição. Para realizar a criação e geração do token, utilizar o serviço
-disponbilizado junto com estrutura do projeto: token-provider-0.0.1-SNAPSHOT.jar.
+disponbilizado junto com estrutura do projeto: token-provider-0.0.1-SNAPSHOT.jar.</p>
 
 <h1 id="token"> 🔒 Token-Provider</h1>
 
@@ -189,20 +189,22 @@ RETORNO: 201 Created
 
 <h1 id="bancodedados"> Banco de Dados </h1>
 
-Para auxiliar o desenvolvimento do API, a estrutura inicial conta com uma base de dados pré-definida e populada
+O Banco de Dados utilizado por default é o SQLite e a modelagem original foi mantida.
 
 Modelagem:
 <div align="center"><img src="https://i.imgur.com/yfMGrur.png" title="source:modelagem imgur" /></div>
 
-Atenção:
-Os campos Id que utilizam GUID mapear como string devido à complexidade na compatibilidade com o UUID nativo do Java.
-
 Dica:
-Não é necessário, porém é possível utilizar uma ferramenta para abrir e visualizar o arquivo MyMusic.db de maneira mais
-fácil, como:
+Para abrir e visualizar o arquivo MyMusic.db de maneira mais
+fácil, é recomendado o uso do SQLite Studio ou do DB Browser for SQLite:
 
 https://sqlitestudio.pl/index.rvt
 
+https://sqlitebrowser.org/dl/
 <br>
 
-<h1 id="testes"> Testes </h3>
+<h1 id="testes"> Testes </h1>
+
+<p> A cobertura de testes atual é de 82% das Classes, 65% dos Métodos e 70% das Linhas.</p>
+
+![Testes](https://github.com/gabrielbillVG/mymusicfiles/blob/main/mymusictestcover.png)
