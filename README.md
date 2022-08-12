@@ -96,11 +96,11 @@ BODY:
 {
   "data": [
   {
-     "id": "fc615aa1-8f3a-499b-a422-9655d4a29006",
-     "name": "Ani Na'amin",
+     "id": "a9223f03-a619-4b92-a19f-90ec4f667e28",
+     "name": "Hey You",
      "artist": {
-       "id": "2154a968-f48c-4890-a70f-a2c552c84b71",
-       "name": "ABBA" 
+       "id": "f2143d85-add3-41ce-a6bd-3e4c0fcb66e8",
+       "name": "Pink Floyd" 
       } 
   }
 ]}
@@ -110,14 +110,14 @@ Retorno:
 ```
 {
         "data": [
-            {
-                "id": "fc615aa1-8f3a-499b-a422-9655d4a29006",
-                "name": "Ani Na'amin",
-                "artist": {
-                    "id": "2154a968-f48c-4890-a70f-a2c552c84b71",
-                    "name": "ABBA"
-                }
-            }
+  {
+     "id": "a9223f03-a619-4b92-a19f-90ec4f667e28",
+     "name": "Hey You",
+     "artist": {
+       "id": "f2143d85-add3-41ce-a6bd-3e4c0fcb66e8",
+       "name": "Pink Floyd" 
+      } 
+  }
         ]
 }
 ```
@@ -220,4 +220,4 @@ https://sqlitebrowser.org/dl/
 
 <p> A cobertura de testes atual é de 84% das Classes, 66% dos Métodos e 70% das Linhas.</p>
 
-![Testes](https://github.com/gabrielbillVG/mymusicfiles/blob/main/image.png)
+![Testes](https://github.com/gabrielbillVG/mymusicfiles/blob/main/mymusiccovertest.png)
