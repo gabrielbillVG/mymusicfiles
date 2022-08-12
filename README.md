@@ -218,6 +218,6 @@ https://sqlitebrowser.org/dl/
 
 <h1 id="testes"> Testes </h1>
 
-<p> A cobertura de testes atual é de 82% das Classes, 65% dos Métodos e 70% das Linhas.</p>
+<p> A cobertura de testes atual é de 84% das Classes, 66% dos Métodos e 70% das Linhas.</p>
 
-![Testes](https://github.com/gabrielbillVG/mymusicfiles/blob/main/mymusictestcover.png)
+![Testes](https://github.com/gabrielbillVG/mymusicfiles/blob/main/image.png)
